@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .items {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin: 20px 20px 20px 20px;
+        height: 200px;
+        width: 200px;
+        border: 1px solid #00ff40;
+    }
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .items {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin: 20px 20px 20px 20px;
+        height: 300px;
+        width: 300px;
+        border: 1px solid #00ff40;
+    }
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .items {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin: 20px 20px 20px 20px;
+        height: 300px;
+        width: 300px;
+        border: 1px solid #00ff40;
+    }
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .items {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin: 20px 20px 20px 20px;
+        height: 300px;
+        width: 300px;
+        border: 1px solid #00ff40;
+    }
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+
+/*.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.items {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 20px 20px 20px 20px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #00ff40;
+}*/

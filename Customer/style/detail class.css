@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.details_view {
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.img_view_detail {
+    display: float;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.details {
+    display: float;
+    float: left;
+}
+
+footer {
+    clear: both;
+    margin-top: auto;
+    margin: 20px 20px 20px;
+}
+
+.review {
+    clear: both;
+    padding: 10px 10px 10px 10px;
+}
+
+.row p {
+    clear: left;
+    float: left;
+    width: 5em;
+    text-align: right;
+    margin-right: .5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row select,
+textarea {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+button {
+    float: left;
+    clear: both;
+    width: 10em;
+    margin-left: 7em;
+    margin-top: 1em;
+}

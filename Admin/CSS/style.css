@@ -1,0 +1,29 @@
+aside {
+    float: left;
+}
+
+main {
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+.container {
+    margin: 20px 20px 20px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    height: 200px;
+    width: 250x;
+    border: 1px solid #00ff80;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
